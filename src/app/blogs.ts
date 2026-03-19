@@ -101,7 +101,146 @@ export interface Blog {
 }
 
 export const blogs: Blog[] = [
- 
+
+  {
+    id: 'case-studies-keychain-photobooth-trends',
+    title: 'Keychain Photobooth: Tren Souvenir Event yang Semakin Populer di Jakarta',
+    image: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta.avif',
+    excerpt: 'Keychain photobooth menjadi salah satu souvenir event paling diminati. Simak tren dan inspirasi desain keychain photobooth terbaru dari awwnderful.',
+    slug: 'case-studies-keychain-photobooth-trends',
+    productTags: ['custom-photo-print', 'corporate event', 'wedding', 'birthday party'],
+    publishedAt: '2025-03-19',
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Keychain photobooth bukan sekadar souvenir biasa — ini adalah kenangan yang bisa dibawa pulang, digantung di tas, dan dilihat setiap hari. Di 2024–2025, tren ini meledak di berbagai jenis event mulai dari wedding, corporate gathering, hingga birthday party di Jakarta.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'why-keychain',
+        content: 'Kenapa Keychain Photobooth Jadi Tren?',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'reasons-list',
+        items: [
+          'Souvenir fungsional — bisa langsung dipakai sebagai gantungan kunci tas atau kunci rumah',
+          'Personalisasi tinggi — foto langsung dicetak saat event, jadi setiap tamu dapat souvenir unik dengan fotonya sendiri',
+          'Compact & affordable — tidak memakan ruang, harga lebih terjangkau dibanding souvenir custom lainnya',
+          'Viral-worthy — banyak tamu foto dan share di Instagram/TikTok karena unik',
+          'Berbagai pilihan desain — dari acrylic bening, kodachrome vintage, hingga filmstrip style'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'image',
+        id: 'keychain-wedding',
+        src: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta-wedding-1.jpeg',
+        alt: 'Keychain photobooth untuk wedding di Jakarta',
+        caption: 'Keychain photobooth wedding — souvenir elegan yang disukai tamu',
+        layout: 'wide'
+      },
+      {
+        type: 'text',
+        id: 'types-heading',
+        content: 'Jenis Keychain Photobooth dari Awwnderful',
+        style: 'medium'
+      },
+      {
+        type: 'comparison',
+        id: 'keychain-types',
+        items: [
+          {
+            title: 'Classic Acrylic Keychain',
+            description: 'Keychain acrylic bening dengan foto dicetak langsung. Tampilan bersih, modern, dan premium.',
+            pros: ['Transparan & elegan', 'Tahan lama', 'Cocok untuk semua jenis event'],
+            cons: ['Desain lebih minimalis dibanding style lain']
+          },
+          {
+            title: 'Kodachrome Keychain',
+            description: 'Terinspirasi dari film Kodak klasik. Tampilan vintage dengan border khas film analog.',
+            pros: ['Aesthetic vintage yang trending', 'Cocok untuk wedding & birthday', 'Instagrammable'],
+            cons: ['Tema spesifik, kurang cocok untuk corporate formal']
+          },
+          {
+            title: 'Filmstrip Keychain',
+            description: 'Desain filmstrip dengan beberapa frame foto sekaligus dalam satu keychain panjang.',
+            pros: ['Bisa muat 3–4 frame foto', 'Sangat unik & berbeda', 'Terbaik untuk kenangan grup'],
+            cons: ['Ukuran lebih panjang', 'Harga sedikit lebih tinggi']
+          }
+        ]
+      },
+      {
+        type: 'image',
+        id: 'keychain-kodachrome',
+        src: '/images/services/custom-photo-print-jakarta/keychain-photobooth-kodachrome-jakarta-1.png',
+        alt: 'Keychain photobooth kodachrome Jakarta',
+        caption: 'Kodachrome keychain — vibes vintage yang estetik',
+        layout: 'wide'
+      },
+      {
+        type: 'text',
+        id: 'events-heading',
+        content: 'Cocok untuk Event Apa Saja?',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'events-list',
+        items: [
+          'Wedding & engagement — souvenir sekaligus kenangan pernikahan yang berkesan',
+          'Corporate event & gathering — branded keychain dengan logo perusahaan',
+          'Birthday party — foto tamu bersama birthday person jadi kenangan spesial',
+          'Brand activation & launching — souvenir promosi yang dibawa pulang tamu',
+          'Graduation & school event — momen wisuda yang bisa dikenang selamanya'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'gallery',
+        id: 'keychain-gallery',
+        images: [
+          {
+            src: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta-wedding-1.jpeg',
+            alt: 'Keychain photobooth wedding Jakarta 1',
+            caption: 'Wedding setup'
+          },
+          {
+            src: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta-wedding-2.jpeg',
+            alt: 'Keychain photobooth wedding Jakarta 2',
+            caption: 'Kodachrome wedding'
+          },
+          {
+            src: '/images/services/custom-photo-print-jakarta/keychain-photobooth-kodachrome-jakarta-1.png',
+            alt: 'Kodachrome keychain Jakarta',
+            caption: 'Filmstrip option'
+          }
+        ],
+        layout: 'grid'
+      },
+      {
+        type: 'quote',
+        id: 'client-quote',
+        quote: 'Tamunya suka banget sama keychain-nya, banyak yang langsung pasang di tas mereka sebelum pulang. Jadi kenangan yang beneran kepake!',
+        author: 'Client Wedding — Jakarta, 2024',
+        style: 'featured'
+      },
+      {
+        type: 'callout',
+        id: 'cta',
+        content: '🔑 Tertarik tambahkan keychain photobooth di event kamu? Hubungi kami untuk info harga dan paket — tersedia untuk area Jakarta & sekitarnya.',
+        style: 'tip'
+      }
+    ]
+  },
+
   {
     id: 'dslr-vs-o-vs-classic',
     title: 'DSLR Booth vs O Booth vs Classic Booth: Which One is Right for Your Event?',

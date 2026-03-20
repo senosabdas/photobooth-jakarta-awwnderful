@@ -242,7 +242,7 @@ export const blogs: Blog[] = [
   },
   {
     id: 'case-studies-hollister-grand-opening-keychain-photobooth',
-    title: 'Hollister Grand Opening: Keychain Photobooth untuk Momen Bersejarah',
+    title: 'Hollister Grand Opening: Keychain Photobooth Experience',
     image: '/images/case-studies/hollister-jakarta/hollister-keychain-photobooth.jpg',
     excerpt: 'Awwnderful hadir di grand opening Hollister dengan layanan keychain photobooth premium — gantungan kunci akrilik dengan desain filmstrip custom yang mengabadikan 4 pose tamu dalam satu souvenir eksklusif retail launch.',
     slug: 'case-studies-hollister-grand-opening-keychain-photobooth',

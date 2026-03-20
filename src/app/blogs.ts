@@ -309,6 +309,22 @@ export const blogs: Blog[] = [
         caption: 'Behind the scenes: The process of creating custom keychain souvenirs on the spot.'
       },
       {
+        type: 'video',
+        id: 'hollister-keychain-showcase',
+        src: '/videos/case-studies/hollister-jakarta/hollister-keychain-showcase.mp4',
+        caption: 'The final result: High-quality acrylic keychain in an elegant filmstrip layout.'
+      },
+      {
+        type: 'gallery',
+        id: 'hollister-final-result-gallery',
+        images: [
+          {
+            src: '/images/case-studies/hollister-jakarta/hollister-keychain-photobooth.jpg',
+            alt: 'Gantungan kunci akrilik filmstrip dengan 4 pose, dipegang di depan backdrop biru Hollister berdekorasi awan'
+          }
+        ]
+      },
+      {
         type: 'callout',
         id: 'cta',
         content: 'Ingin layanan keychain photobooth untuk grand opening atau event retail kamu? Hubungi Awwnderful dan kami siap bantu dari konsep hingga eksekusi.',

@@ -240,6 +240,62 @@ export const blogs: Blog[] = [
       }
     ]
   },
+  {
+    id: 'case-studies-hollister-grand-opening-keychain-photobooth',
+    title: 'Hollister Grand Opening: Keychain Photobooth untuk Momen Bersejarah',
+    image: '/images/blog/hollister-grand-opening-keychain-photobooth.jpg',
+    excerpt: 'Awwnderful hadir di grand opening Hollister dengan layanan keychain photobooth — mengabadikan momen spesial tamu dalam souvenir yang bisa langsung dibawa pulang.',
+    slug: 'case-studies-hollister-grand-opening-keychain-photobooth',
+    productTags: ['custom-photo-print', 'corporate event', 'keychain photobooth'],
+    publishedAt: '2025-03-07',
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Grand opening Hollister menjadi salah satu event retail terbesar yang kami tangani — dan keychain photobooth dari Awwnderful hadir untuk memastikan setiap tamu pulang dengan kenangan nyata di tangan mereka.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'event-overview',
+        content: 'Tentang Event',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'event-detail',
+        content: 'Hollister memilih keychain photobooth sebagai bagian dari pengalaman grand opening mereka. Setiap tamu bisa langsung foto dan mendapatkan gantungan kunci dengan foto mereka sendiri — souvenir eksklusif yang personal dan memorable.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'result-heading',
+        content: 'Hasil & Highlight',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'highlights',
+        items: [
+          'Ratusan keychain tercetak selama event berlangsung',
+          'Antrian tamu yang konsisten — menunjukkan tingginya minat terhadap souvenir foto langsung',
+          'Desain keychain disesuaikan dengan branding Hollister',
+          'Operator terlatih memastikan proses cetak berjalan cepat dan lancar'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'callout',
+        id: 'cta',
+        content: 'Ingin layanan keychain photobooth untuk grand opening atau event retail kamu? Hubungi Awwnderful dan kami siap bantu dari konsep hingga eksekusi.',
+        style: 'tip'
+      }
+    ]
+  },
 
   {
     id: 'dslr-vs-o-vs-classic',
@@ -2737,62 +2793,6 @@ export const blogs: Blog[] = [
         content:
           'Photobooth 360 adalah pilihan ideal bagi Anda yang ingin memberikan pengalaman visual yang modern, premium, dan interaktif. Dengan video sinematik yang mudah dibagikan di media sosial, 360 booth bisa menjadi spotlight di acara apa pun — mulai dari wedding, konser, hingga brand activation.',
         style: 'large'
-      }
-    ]
-  },
-  {
-    id: 'case-studies-hollister-grand-opening-keychain-photobooth',
-    title: 'Hollister Grand Opening: Keychain Photobooth untuk Momen Bersejarah',
-    image: '/images/blog/hollister-grand-opening-keychain-photobooth.jpg',
-    excerpt: 'Awwnderful hadir di grand opening Hollister dengan layanan keychain photobooth — mengabadikan momen spesial tamu dalam souvenir yang bisa langsung dibawa pulang.',
-    slug: 'case-studies-hollister-grand-opening-keychain-photobooth',
-    productTags: ['custom-photo-print', 'corporate event', 'keychain photobooth'],
-    publishedAt: '2025-03-20',
-    author: {
-      name: 'Seno Sabdastandyo',
-      image: '/images/blog-profile-seno-jakarta.webp'
-    },
-    content: [
-      {
-        type: 'text',
-        id: 'intro',
-        content: 'Grand opening Hollister menjadi salah satu event retail terbesar yang kami tangani — dan keychain photobooth dari Awwnderful hadir untuk memastikan setiap tamu pulang dengan kenangan nyata di tangan mereka.',
-        style: 'large'
-      },
-      {
-        type: 'text',
-        id: 'event-overview',
-        content: 'Tentang Event',
-        style: 'medium'
-      },
-      {
-        type: 'text',
-        id: 'event-detail',
-        content: 'Hollister memilih keychain photobooth sebagai bagian dari pengalaman grand opening mereka. Setiap tamu bisa langsung foto dan mendapatkan gantungan kunci dengan foto mereka sendiri — souvenir eksklusif yang personal dan memorable.',
-        style: 'normal'
-      },
-      {
-        type: 'text',
-        id: 'result-heading',
-        content: 'Hasil & Highlight',
-        style: 'medium'
-      },
-      {
-        type: 'list',
-        id: 'highlights',
-        items: [
-          'Ratusan keychain tercetak selama event berlangsung',
-          'Antrian tamu yang konsisten — menunjukkan tingginya minat terhadap souvenir foto langsung',
-          'Desain keychain disesuaikan dengan branding Hollister',
-          'Operator terlatih memastikan proses cetak berjalan cepat dan lancar'
-        ],
-        style: 'bullet'
-      },
-      {
-        type: 'callout',
-        id: 'cta',
-        content: 'Ingin layanan keychain photobooth untuk grand opening atau event retail kamu? Hubungi Awwnderful dan kami siap bantu dari konsep hingga eksekusi.',
-        style: 'tip'
       }
     ]
   },

@@ -260,6 +260,16 @@ export const blogs: Blog[] = [
         style: 'large'
       },
       {
+        type: 'gallery',
+        id: 'hollister-poster-featured',
+        images: [
+          {
+            src: '/images/case-studies/hollister-jakarta/hollister-poster.jpg',
+            alt: 'Poster resmi Hollister Grand Opening Jakarta — keychain photobooth Awwnderful'
+          }
+        ]
+      },
+      {
         type: 'text',
         id: 'event-overview',
         content: 'Tentang Event',
@@ -268,7 +278,7 @@ export const blogs: Blog[] = [
       {
         type: 'text',
         id: 'event-detail',
-        content: 'Hollister memilih keychain photobooth sebagai bagian dari pengalaman grand opening mereka. Setiap tamu bisa langsung foto dan mendapatkan gantungan kunci dengan foto mereka sendiri — souvenir eksklusif yang personal dan memorable.',
+        content: 'Hollister memilih keychain photobooth sebagai bagian dari pengalaman grand opening mereka. Setiap tamu bisa langsung foto dan memilih hasil cetaknya — mulai dari photo strip ukuran penuh hingga versi compact gantungan kunci akrilik. Dua pilihan format memberi tamu kebebasan untuk menikmati kenangan sesuai selera mereka.',
         style: 'normal'
       },
       {
@@ -287,6 +297,14 @@ export const blogs: Blog[] = [
           'Operator terlatih memastikan proses cetak berjalan cepat dan lancar — mendukung output tinggi di event retail berskala besar'
         ],
         style: 'bullet'
+      },
+      {
+        type: 'image',
+        id: 'hollister-assembly-grid',
+        src: '/images/case-studies/hollister-jakarta/hollister-assembly-grid.jpg',
+        alt: 'Pilihan ukuran Strip & Keychain, serta proses Fast Assembly memasukkan foto ke dalam gantungan kunci akrilik di tempat',
+        caption: 'Strip & Keychain Size — tamu bebas pilih format hasil cetak. Fast Assembly: tim kami langsung memasukkan foto ke dalam akrilik keychain di tempat.',
+        layout: 'wide'
       },
       {
         type: 'image',

@@ -243,8 +243,8 @@ export const blogs: Blog[] = [
   {
     id: 'case-studies-hollister-grand-opening-keychain-photobooth',
     title: 'Hollister Grand Opening: Keychain Photobooth untuk Momen Bersejarah',
-    image: '/images/blog/hollister-grand-opening-keychain-photobooth.jpg',
-    excerpt: 'Awwnderful hadir di grand opening Hollister dengan layanan keychain photobooth — mengabadikan momen spesial tamu dalam souvenir yang bisa langsung dibawa pulang.',
+    image: '/images/case-studies/hollister-jakarta/hollister-keychain-photobooth.jpg',
+    excerpt: 'Awwnderful hadir di grand opening Hollister dengan layanan keychain photobooth premium — gantungan kunci akrilik dengan desain filmstrip custom yang mengabadikan 4 pose tamu dalam satu souvenir eksklusif retail launch.',
     slug: 'case-studies-hollister-grand-opening-keychain-photobooth',
     productTags: ['custom-photo-print', 'corporate event', 'keychain photobooth'],
     publishedAt: '2025-03-07',
@@ -287,6 +287,14 @@ export const blogs: Blog[] = [
           'Operator terlatih memastikan proses cetak berjalan cepat dan lancar'
         ],
         style: 'bullet'
+      },
+      {
+        type: 'image',
+        id: 'hollister-keychain-result',
+        src: '/images/case-studies/hollister-jakarta/hollister-keychain-photobooth.jpg',
+        alt: 'Gantungan kunci akrilik filmstrip dengan 4 pose, dipegang di depan backdrop biru Hollister berdekorasi awan',
+        caption: 'Hasil keychain akrilik filmstrip Hollister — 4 pose dalam satu souvenir premium yang langsung bisa dibawa pulang',
+        layout: 'wide'
       },
       {
         type: 'callout',

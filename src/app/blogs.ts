@@ -284,7 +284,7 @@ export const blogs: Blog[] = [
           'Ratusan keychain tercetak selama event berlangsung',
           'Antrian tamu yang konsisten — menunjukkan tingginya minat terhadap souvenir foto langsung',
           'Desain keychain disesuaikan dengan branding Hollister',
-          'Operator terlatih memastikan proses cetak berjalan cepat dan lancar'
+          'Operator terlatih memastikan proses cetak berjalan cepat dan lancar — mendukung output tinggi di event retail berskala besar'
         ],
         style: 'bullet'
       },
@@ -295,6 +295,18 @@ export const blogs: Blog[] = [
         alt: 'Gantungan kunci akrilik filmstrip dengan 4 pose, dipegang di depan backdrop biru Hollister berdekorasi awan',
         caption: 'Hasil keychain akrilik filmstrip Hollister — 4 pose dalam satu souvenir premium yang langsung bisa dibawa pulang',
         layout: 'wide'
+      },
+      {
+        type: 'text',
+        id: 'video-intro',
+        content: 'Video di bawah memperlihatkan alur kerja yang seamless — mulai dari sesi foto hingga gantungan kunci akrilik siap di tangan tamu. Proses yang terstruktur ini memungkinkan kapasitas output tinggi, ideal untuk event retail berskala besar seperti grand opening Hollister.',
+        style: 'normal'
+      },
+      {
+        type: 'video',
+        id: 'hollister-keychain-process',
+        src: '/videos/case-studies/hollister-jakarta/hollister-keychain-process.mp4',
+        caption: 'Behind the scenes: The process of creating custom keychain souvenirs on the spot.'
       },
       {
         type: 'callout',

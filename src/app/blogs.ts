@@ -2850,26 +2850,6 @@ export const blogs: Blog[] = [
       }
     ]
   },
-  {
-    id: 'test-blog-jarvis',
-    title: 'Test Blog',
-    excerpt: 'This is a test blog post.',
-    slug: 'test-blog-jarvis', // image removed
-    productTags: ['test'],
-    publishedAt: '2026-03-11',
-    author: {
-      name: 'Seno',
-      image: '/images/blog-profile-seno-jakarta.webp'
-    },
-    content: [
-      {
-        type: 'text',
-        id: 'intro',
-        content: 'test blog',
-        style: 'large'
-      }
-    ]
-  },
  
   
 ];

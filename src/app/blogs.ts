@@ -94,6 +94,7 @@ export interface Blog {
   productTags: string[];
   content: ContentBlock[];
   publishedAt: string;
+  draft?: boolean;
   author: {
     name: string;
     image: string;
@@ -2850,8 +2851,1155 @@ export const blogs: Blog[] = [
       }
     ]
   },
- 
-  
+
+  // ============================================================
+  // DRAFT ARTICLES — bisnis photobooth (preview only)
+  // ============================================================
+
+  {
+    id: 'equipment-photobooth-lengkap-2025',
+    title: 'Equipment Photobooth Lengkap: List & Estimasi Harga 2025',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Mau mulai usaha photobooth tapi bingung beli apa dulu? Ini daftar equipment lengkap dari kamera, printer, hingga software — lengkap dengan estimasi harga 2025.',
+    slug: 'equipment-photobooth-lengkap-2025',
+    productTags: ['usaha photobooth', 'equipment', 'tips bisnis'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Salah satu pertanyaan paling sering dari calon pengusaha photobooth adalah: "Harus beli apa dulu?" Jawabannya tergantung skala bisnis yang mau kamu jalankan. Artikel ini merangkum semua equipment yang dibutuhkan — dari yang paling esensial hingga upgrade yang bisa dilakukan bertahap.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'kamera-heading',
+        content: 'Kamera',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'kamera-body',
+        content: 'Kamera adalah jantung setup photobooth. Pilihan utama ada dua: DSLR dan mirrorless. Untuk pemula, DSLR seperti Canon EOS 90D atau Nikon D7500 masih sangat mumpuni dan harga second-nya terjangkau. Mirrorless seperti Sony A7III atau Fujifilm X-T4 memberikan kualitas lebih premium tapi dengan harga yang lebih tinggi.',
+        style: 'normal'
+      },
+      {
+        type: 'comparison',
+        id: 'kamera-comparison',
+        items: [
+          {
+            title: 'DSLR (Canon 90D / Nikon D7500)',
+            description: 'Pilihan ekonomis untuk pemula, ekosistem lensa luas, baterai tahan lama.',
+            pros: ['Harga terjangkau (Rp 8–15 juta baru, Rp 5–10 juta second)', 'Baterai lebih awet', 'Lensa murah & banyak pilihan'],
+            cons: ['Lebih berat', 'Autofokus video lebih lambat']
+          },
+          {
+            title: 'Mirrorless (Sony A7III / Fujifilm X-T4)',
+            description: 'Kualitas gambar lebih tinggi, compact, cocok untuk booth modern.',
+            pros: ['Image quality premium', 'Ringkas & ringan', 'Video quality sangat baik'],
+            cons: ['Harga lebih mahal (Rp 18–35 juta)', 'Baterai lebih boros']
+          }
+        ]
+      },
+      {
+        type: 'text',
+        id: 'printer-heading',
+        content: 'Printer Foto',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'printer-body',
+        content: 'Printer adalah komponen paling krusial setelah kamera. Untuk photobooth profesional, gunakan printer dye-sublimation — hasil cetaknya tajam, tahan air, dan cepat. Merk yang paling populer di Indonesia: DNP DS-RX1HS, HiTi P525L, dan Mitsubishi CP-D90DW.',
+        style: 'normal'
+      },
+      {
+        type: 'list',
+        id: 'printer-list',
+        items: [
+          'DNP DS-RX1HS — kecepatan tinggi, cocok untuk event besar. Harga: Rp 18–25 juta',
+          'HiTi P525L — pilihan terpopuler di Indonesia, balance antara harga & kualitas. Harga: Rp 12–17 juta',
+          'Mitsubishi CP-D90DW — kualitas warna premium, awet untuk penggunaan intensif. Harga: Rp 20–28 juta'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'lighting-heading',
+        content: 'Lighting',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'lighting-body',
+        content: 'Pencahayaan menentukan kualitas foto secara keseluruhan. Setup dasar: 2 softbox continuous light atau 1 ring light besar sudah cukup untuk pemula. Untuk setup profesional, tambahkan backlight dan hair light.',
+        style: 'normal'
+      },
+      {
+        type: 'list',
+        id: 'lighting-list',
+        items: [
+          'Ring light 18-24 inch — cocok untuk setup sederhana & portrait. Harga: Rp 300–800 ribu',
+          'Softbox 60x90cm (sepasang) — pencahayaan lebih merata & profesional. Harga: Rp 500 ribu–1,5 juta',
+          'Strobe flash + trigger — untuk event formal & kualitas studio. Harga: Rp 2–5 juta'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'software-heading',
+        content: 'Software Photobooth',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'software-body',
+        content: 'Software menghubungkan kamera ke printer dan mengelola template. Beberapa pilihan populer: DSLR Remote Pro (Windows), Sparkbooth, dan Breeze Kiosk. Untuk setup iOS/iPad, ada Pic-Me dan Simple Booth.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'perangkat-heading',
+        content: 'Perangkat Pendukung Lainnya',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'perangkat-list',
+        items: [
+          'Laptop Windows — spek minimal i5, RAM 8GB, SSD. Harga: Rp 6–15 juta',
+          'Tripod & stand kamera — untuk setup stabil. Harga: Rp 300–800 ribu',
+          'Backdrop + stand backdrop — backdrop vinyl atau kain. Harga: Rp 300 ribu–2 juta',
+          'Props & dekorasi — kacamata, topi, balon, dll. Harga: Rp 200–500 ribu',
+          'Extension cord & power strip — kebutuhan wajib di setiap event. Harga: Rp 150–300 ribu'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'total-modal',
+        content: 'Total estimasi modal awal (setup standar): Rp 25–45 juta. Setup premium dengan printer DNP dan kamera mirrorless: Rp 60–90 juta.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'tip-beli',
+        content: 'Tips: Beli kamera & printer second berkualitas dulu untuk menekan modal awal. Upgrade satu per satu setelah cash flow stabil dari event pertama.',
+        style: 'tip'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Memulai usaha photobooth tidak harus langsung full setup mahal. Yang penting: kamera handal, printer dye-sub, dan lighting memadai. Sisanya bisa diupgrade seiring pendapatan yang masuk.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'cara-hitung-harga-sewa-photobooth',
+    title: 'Cara Hitung Harga Sewa Photobooth Biar Tidak Rugi',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Menentukan harga sewa photobooth yang tepat bukan soal nebak — ada formula hitungannya. Ini cara menghitung biaya operasional, keuntungan wajar, dan harga yang kompetitif.',
+    slug: 'cara-hitung-harga-sewa-photobooth',
+    productTags: ['usaha photobooth', 'tips bisnis', 'harga sewa'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Banyak pemilik usaha photobooth yang baru mulai menetapkan harga berdasarkan "kira-kira" atau sekadar mengikuti kompetitor. Padahal, harga yang salah bisa membuat kamu kerja keras tapi tidak untung. Ini cara menghitungnya dengan benar.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'komponen-biaya-heading',
+        content: '1. Identifikasi Komponen Biaya Per Event',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'biaya-list',
+        items: [
+          'Biaya transportasi (PP ke venue): Rp 100–300 ribu',
+          'Biaya kertas & tinta printer per lembar: Rp 3–6 ribu (dye-sub)',
+          'Estimasi cetak per event: 100–200 lembar → Rp 300 ribu–1,2 juta',
+          'Tenaga operator (1–2 orang): Rp 200–400 ribu/orang',
+          'Penyusutan equipment: hitung per jam dari total nilai alat',
+          'Biaya tak terduga (buffer 10%)'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'depresiasi-heading',
+        content: '2. Hitung Biaya Penyusutan Equipment',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'depresiasi-body',
+        content: 'Misalnya total nilai equipment Rp 40 juta, umur pakai estimasi 3 tahun (1.095 hari). Kalau kamu rata-rata 4 event per bulan (48 event/tahun), berarti per event menanggung: Rp 40 juta ÷ (3 tahun × 48 event) = Rp 278 ribu per event untuk penyusutan alat.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'formula-heading',
+        content: '3. Formula Harga Minimum',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'formula-body',
+        content: 'Harga Minimum = Biaya Operasional Per Event + Penyusutan Equipment + Target Profit. Contoh: Rp 700 ribu (ops) + Rp 278 ribu (depresiasi) + Rp 1 juta (profit 50%) = Rp 1,978 juta. Artinya harga minimum aman di kisaran Rp 2 juta.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'catatan-harga',
+        content: 'Harga pasar photobooth Jakarta saat ini berkisar Rp 2,5–8 juta tergantung durasi, jenis booth, dan layanan tambahan. Jangan hanya melihat kompetitor — pastikan hitunganmu sendiri sudah aman dulu.',
+        style: 'info'
+      },
+      {
+        type: 'text',
+        id: 'faktor-naik-heading',
+        content: 'Faktor yang Bisa Menaikkan Harga',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'faktor-list',
+        items: [
+          'Durasi lebih panjang (>6 jam)',
+          'Lokasi jauh atau butuh akses khusus',
+          'Permintaan custom template atau branding klien',
+          'Penambahan layanan: keychain print, GIF, video booth',
+          'Event premium: wedding, peluncuran produk korporat',
+          'Weekend atau hari libur nasional'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'paket-heading',
+        content: 'Strategi Paket Harga',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'paket-body',
+        content: 'Buat minimal 3 tier paket: Basic (durasi pendek, cetak terbatas), Standard (durasi standar, cetak unlimited), dan Premium (semua fitur + keychain/GIF). Ini memudahkan klien memilih dan kamu tetap bisa kontrol margin per paket.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Harga yang tepat bukan yang paling murah, tapi yang memberikan kamu keuntungan wajar setelah semua biaya dihitung. Dengan formula ini, kamu bisa negosiasi dengan klien dengan kepala dingin karena sudah tahu batas minimum yang aman.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'roi-usaha-photobooth-kapan-balik-modal',
+    title: 'ROI Usaha Photobooth: Kapan Bisa Balik Modal?',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Usaha photobooth bisa balik modal dalam 6–18 bulan tergantung frekuensi event dan strategi harga. Ini simulasi ROI nyata untuk bantu kamu perencanaan.',
+    slug: 'roi-usaha-photobooth-kapan-balik-modal',
+    productTags: ['usaha photobooth', 'tips bisnis', 'ROI'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Salah satu pertanyaan paling realistis sebelum mulai usaha photobooth adalah: kapan balik modal? Jawabannya bukan "tergantung" yang abstrak — ada angka konkretnya. Mari kita simulasikan.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'asumsi-heading',
+        content: 'Skenario: Setup Standar',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'asumsi-list',
+        items: [
+          'Total modal awal: Rp 35 juta (kamera DSLR, printer HiTi, lighting, laptop, aksesoris)',
+          'Harga sewa per event: Rp 3 juta (standard package, 4 jam)',
+          'Biaya operasional per event: Rp 900 ribu (transport, kertas, operator)',
+          'Profit bersih per event: Rp 2,1 juta',
+          'Target event: 4x per bulan'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'simulasi-heading',
+        content: 'Simulasi Balik Modal',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'simulasi-body',
+        content: 'Dengan 4 event per bulan × Rp 2,1 juta profit = Rp 8,4 juta/bulan. Modal Rp 35 juta ÷ Rp 8,4 juta = sekitar 4,2 bulan. Artinya dengan konsistensi 4 event/bulan, modal bisa kembali dalam waktu 4–5 bulan.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'skenario-konservatif',
+        content: 'Skenario Konservatif (2 event/bulan)',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'konservatif-body',
+        content: '2 event × Rp 2,1 juta = Rp 4,2 juta/bulan. Balik modal: Rp 35 juta ÷ Rp 4,2 juta = sekitar 8–9 bulan. Ini skenario yang lebih realistis untuk pemula yang masih membangun network.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'realita',
+        content: 'Realita: Bulan pertama biasanya 1–2 event (membangun portofolio). Bulan 3–6 mulai stabil di 3–4 event/bulan. Setelah network kuat, bisa 6–8 event/bulan — terutama di musim ramai (September–Desember).',
+        style: 'info'
+      },
+      {
+        type: 'text',
+        id: 'tips-percepat-heading',
+        content: 'Tips Mempercepat Balik Modal',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'tips-list',
+        items: [
+          'Tawarkan paket add-on: keychain, GIF booth, atau video pendek untuk naikkan nilai per event',
+          'Bangun relasi dengan WO/EO — mereka bisa kasih referral regular',
+          'Foto dokumentasi event dan posting rutin di Instagram/TikTok untuk personal branding',
+          'Pertimbangkan sewa equipment di event besar sebagai tambahan pendapatan',
+          'Buka slot weekend di peak season (Oktober–Desember) dengan harga premium'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Usaha photobooth bisa balik modal dalam 4–9 bulan dengan manajemen yang baik. Kuncinya: konsistensi mendapat event dan menjaga kualitas layanan agar klien repeat order dan memberi referral.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'software-photobooth-terbaik-2025',
+    title: 'Software Photobooth Terbaik 2025: Review Jujur dari Praktisi',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Bingung pilih software photobooth? Ini review jujur DSLR Remote Pro, Sparkbooth, Breeze Kiosk, dan Simple Booth — kelebihan, kekurangan, dan untuk siapa masing-masing cocok.',
+    slug: 'software-photobooth-terbaik-2025',
+    productTags: ['usaha photobooth', 'equipment', 'software'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Software photobooth adalah otak dari semua operasi — dia yang mengontrol kamera, menerapkan template, mengelola antrian cetak, dan kadang mengirim foto langsung ke tamu. Pilihan yang salah bisa bikin event jadi kacau. Ini review dari pengalaman langsung di lapangan.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'kriteria-heading',
+        content: 'Kriteria Memilih Software Photobooth',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'kriteria-list',
+        items: [
+          'Kompatibilitas kamera (Canon, Nikon, Sony, dll)',
+          'Kemudahan desain template',
+          'Kecepatan proses & cetak',
+          'Fitur digital sharing (email, QR code, social media)',
+          'Stabilitas — tidak crash di tengah event',
+          'Harga lisensi & model subscription'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'comparison',
+        id: 'software-comparison',
+        items: [
+          {
+            title: 'DSLR Remote Pro (Windows)',
+            description: 'Software populer di Indonesia, kompatibel luas dengan Canon & Nikon. Banyak digunakan vendor lokal.',
+            pros: ['Kompatibilitas Canon luas', 'Komunitas besar di Indonesia', 'Harga lisensi terjangkau'],
+            cons: ['UI agak ketinggalan zaman', 'Setup awal agak kompleks', 'Fitur digital sharing terbatas']
+          },
+          {
+            title: 'Sparkbooth (Windows/Mac)',
+            description: 'Software modern dengan UI yang bersih. Cocok untuk pemula yang ingin setup cepat.',
+            pros: ['UI modern & mudah digunakan', 'Setup cepat', 'Tampilan template menarik'],
+            cons: ['Kompatibilitas kamera lebih terbatas', 'Harga subscription lebih tinggi']
+          },
+          {
+            title: 'Breeze Kiosk (Windows)',
+            description: 'Pilihan profesional dengan fitur paling lengkap. Banyak digunakan untuk setup corporate premium.',
+            pros: ['Fitur paling lengkap', 'Digital sharing canggih', 'Kustomisasi tinggi'],
+            cons: ['Kurva belajar lebih curam', 'Harga paling mahal', 'Butuh spek laptop lebih tinggi']
+          },
+          {
+            title: 'Simple Booth (iPad/iOS)',
+            description: 'Pilihan jika pakai iPad sebagai controller. Setup paling ringkas secara hardware.',
+            pros: ['Sangat ringkas — cukup iPad', 'Mudah dibawa ke mana saja', 'UI tamu sangat intuitif'],
+            cons: ['Tergantung ekosistem Apple', 'Biaya subscription bulanan', 'Kualitas cetak bergantung printer yang kompatibel']
+          }
+        ]
+      },
+      {
+        type: 'text',
+        id: 'rekomendasi-heading',
+        content: 'Rekomendasi',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'rekomendasi-list',
+        items: [
+          'Pemula dengan budget terbatas → DSLR Remote Pro',
+          'Ingin setup modern & cepat → Sparkbooth',
+          'Event korporat premium & butuh fitur lengkap → Breeze Kiosk',
+          'Prioritas mobilitas & pakai Canon/iPad → Simple Booth'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'callout',
+        id: 'tip-trial',
+        content: 'Tips: Hampir semua software ini punya versi trial gratis 30 hari. Coba dulu sebelum beli lisensi — terutama cek kompatibilitas dengan kamera dan printer yang kamu punya.',
+        style: 'tip'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Tidak ada software yang perfect untuk semua orang. Yang paling penting: pilih yang kompatibel dengan kamera dan printer kamu, dan yang bisa kamu kuasai dengan percaya diri sebelum event pertama.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'kamera-photobooth-dslr-vs-mirrorless',
+    title: 'Kamera untuk Photobooth: DSLR vs Mirrorless, Mana yang Lebih Cocok?',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Pilih DSLR atau mirrorless untuk usaha photobooth? Ini perbandingan jujur dari sisi kualitas foto, daya tahan, kompatibilitas software, dan nilai investasi.',
+    slug: 'kamera-photobooth-dslr-vs-mirrorless',
+    productTags: ['usaha photobooth', 'equipment', 'kamera'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Pertanyaan klasik di komunitas vendor photobooth: "Bagusan DSLR atau mirrorless?" Jawabannya tidak sesimpel satu lebih baik dari yang lain. Tergantung kebutuhan, budget, dan workflow kamu. Mari kita bahas secara jujur.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'dslr-heading',
+        content: 'Kelebihan DSLR untuk Photobooth',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'dslr-pros',
+        items: [
+          'Kompatibilitas software lebih luas — DSLR Remote Pro & Breeze sudah support Canon/Nikon lama',
+          'Baterai lebih tahan lama — penting untuk event 6–8 jam',
+          'Harga second terjangkau — Canon 90D second bisa Rp 6–9 juta',
+          'Ekosistem lensa murah & banyak pilihan',
+          'Terbukti handal untuk photobooth selama bertahun-tahun'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'mirrorless-heading',
+        content: 'Kelebihan Mirrorless untuk Photobooth',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'mirrorless-pros',
+        items: [
+          'Image quality lebih tinggi, terutama di ISO rendah dan medium',
+          'Bobot lebih ringan — lebih nyaman dibawa ke event',
+          'Autofokus lebih cepat dan akurat',
+          'Video quality jauh lebih baik jika butuh video booth',
+          'Pilihan kamera terbaru semuanya mirrorless — arah pasar ke sini'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'callout',
+        id: 'catatan-software',
+        content: 'Catatan penting: Pastikan kamera yang kamu pilih kompatibel dengan software photobooth yang akan digunakan. Beberapa mirrorless Sony terbaru butuh firmware tertentu untuk tethering. Selalu cek compatibility list software sebelum beli.',
+        style: 'warning'
+      },
+      {
+        type: 'text',
+        id: 'rekomendasi-heading',
+        content: 'Rekomendasi Berdasarkan Kebutuhan',
+        style: 'medium'
+      },
+      {
+        type: 'comparison',
+        id: 'rekomendasi-comparison',
+        items: [
+          {
+            title: 'Pilih DSLR jika...',
+            description: 'Budget terbatas, baru mulai, prioritas kompatibilitas software, dan event biasanya indoor dengan lighting memadai.',
+            pros: ['Canon EOS 90D: all-rounder terbaik', 'Nikon D7500: warna natural', 'Canon 6D Mark II: full-frame terjangkau']
+          },
+          {
+            title: 'Pilih Mirrorless jika...',
+            description: 'Budget lebih fleksibel, butuh kualitas premium, atau menjalankan video booth juga.',
+            pros: ['Fujifilm X-T4: warna film khas Fuji', 'Sony A7III: low-light terbaik', 'Canon R6: AF terbaik di kelasnya']
+          }
+        ]
+      },
+      {
+        type: 'text',
+        id: 'lensa-heading',
+        content: 'Soal Lensa',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'lensa-body',
+        content: 'Untuk photobooth, lensa terbaik adalah prime 35mm atau 50mm (full-frame) / 23mm atau 35mm (crop sensor). Aperture f/1.8 sudah lebih dari cukup. Hindari zoom lensa jika mau menghemat budget — prime lensa lebih tajam dengan harga lebih murah.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Untuk pemula: DSLR adalah pilihan paling pragmatis — terjangkau, handal, dan kompatibilitas software terluas. Untuk yang sudah established dan ingin upgrade: mirrorless memberikan kualitas lebih premium dan lebih siap ke depan.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'cara-bikin-template-photobooth-yang-disukai-klien',
+    title: 'Cara Bikin Template Photobooth yang Disukai Klien',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Template yang bagus bukan cuma soal desain keren — tapi yang cocok dengan tema event dan mau di-share tamu. Ini panduan desain template photobooth dari nol.',
+    slug: 'cara-bikin-template-photobooth-yang-disukai-klien',
+    productTags: ['usaha photobooth', 'tips bisnis', 'desain'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Template photobooth adalah elemen yang paling pertama dilihat klien saat mempertimbangkan vendor. Template yang menarik bisa jadi alasan mereka booking — dan template yang jelek bisa jadi alasan mereka komplain.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'tools-heading',
+        content: 'Tool yang Dipakai',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'tools-list',
+        items: [
+          'Adobe Photoshop — standar industri, paling fleksibel',
+          'Canva Pro — untuk yang tidak familiar dengan Photoshop, cocok untuk template sederhana',
+          'Adobe Illustrator — untuk elemen vector yang scalable',
+          'Figma — alternatif modern, cocok jika sering kolaborasi dengan desainer'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'ukuran-heading',
+        content: 'Ukuran Template yang Benar',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'ukuran-list',
+        items: [
+          'Print 4R (10x15cm): 1200x1800px @ 300dpi — paling umum untuk photobooth standar',
+          'Print 2R strip (5x15cm): 600x1800px @ 300dpi — cocok untuk 3-4 frame horizontal',
+          'Keychain (4x6cm): 472x708px @ 300dpi — untuk keychain photobooth',
+          'Digital only (landscape 16:9): 1920x1080px — untuk GIF atau video sharing'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'prinsip-desain-heading',
+        content: 'Prinsip Desain Template yang Efektif',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'prinsip-list',
+        items: [
+          'Zona foto harus jelas dan proporsional — tamu harus terlihat, bukan terpotong frame berlebihan',
+          'Teks event/nama klien di area yang tidak menutupi wajah',
+          'Warna konsisten dengan tema event — minta brief dari klien atau EO',
+          'Logo sponsor di sudut yang tidak mengganggu estetika',
+          'Hindari terlalu banyak elemen dekoratif — simple selalu lebih baik'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'tipe-template-heading',
+        content: 'Tipe Template Berdasarkan Event',
+        style: 'medium'
+      },
+      {
+        type: 'comparison',
+        id: 'tipe-template',
+        items: [
+          {
+            title: 'Wedding',
+            description: 'Elegan, minimalis, warna soft (gold, ivory, blush pink). Tonjolkan nama pasangan dan tanggal pernikahan.',
+            pros: ['Font serif atau script untuk kesan mewah', 'Border tipis atau watercolor floral', 'Warna netral agar foto jadi focal point']
+          },
+          {
+            title: 'Corporate Event',
+            description: 'Clean, profesional, warna sesuai brand guideline klien. Logo perusahaan wajib ada.',
+            pros: ['Font sans-serif yang clean', 'Layout simetris', 'Warna sesuai brand corporate']
+          },
+          {
+            title: 'Birthday Party',
+            description: 'Fun, colorful, bisa lebih playful. Cocok untuk balloons, confetti, atau ilustrasi karakter.',
+            pros: ['Warna cerah dan kontras', 'Font playful', 'Elemen dekoratif lebih bebas']
+          }
+        ]
+      },
+      {
+        type: 'callout',
+        id: 'tip-viral',
+        content: 'Tips agar tamu mau share: buat template yang Instagram-worthy. Artinya: komposisi menarik bahkan jika dipotret dengan kamera HP dari layar. Seringkali tamu foto di depan print-out fisik lalu upload ke story — pastikan template-nya tetap keren.',
+        style: 'tip'
+      },
+      {
+        type: 'text',
+        id: 'workflow-heading',
+        content: 'Workflow Revisi dengan Klien',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'workflow-list',
+        items: [
+          'Minta brief awal: tema warna, logo, teks yang mau ditampilkan',
+          'Buat 2–3 variasi konsep awal',
+          'Kirim mockup preview ke klien (screenshot dengan foto placeholder)',
+          'Maksimal 2 round revisi — cantumkan ini di kontrak/quotation',
+          'Final approval H-3 event untuk ada waktu print test'
+        ],
+        style: 'numbered'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Template yang bagus adalah yang membuat klien senang, tamu mau foto berulang, dan foto-nya layak di-share. Bangun library template per kategori event — ini aset bisnis yang nilainya terus bertambah.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'tips-lighting-photobooth-indoor-outdoor',
+    title: 'Tips Setup Lighting Photobooth di Indoor & Outdoor',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Lighting yang salah adalah penyebab utama foto photobooth terlihat buruk. Ini panduan setup lighting untuk berbagai kondisi event — dari ballroom hingga outdoor daytime.',
+    slug: 'tips-lighting-photobooth-indoor-outdoor',
+    productTags: ['usaha photobooth', 'equipment', 'tips teknis'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Foto yang tajam dari kamera mahal bisa tetap terlihat jelek kalau lighting-nya salah. Sebaliknya, kamera mid-range dengan lighting yang tepat bisa menghasilkan foto yang konsisten dan memuaskan. Ini yang membedakan vendor pemula dan vendor berpengalaman.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'dasar-heading',
+        content: 'Dasar Lighting Photobooth',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'dasar-body',
+        content: 'Setup lighting photobooth yang paling efisien mengikuti prinsip three-point lighting: Key Light (utama dari depan-samping), Fill Light (mengisi bayangan dari sisi berlawanan), dan backlight (opsional, memisahkan subjek dari backdrop). Untuk photobooth, key dan fill sudah cukup dalam kebanyakan kondisi.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'indoor-heading',
+        content: 'Indoor Setup',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'indoor-list',
+        items: [
+          'Gunakan continuous light (LED panel atau softbox) untuk kontrol lebih mudah',
+          'Posisi key light di sudut 45° dari subjek, setinggi mata atau sedikit di atasnya',
+          'Fill light di sisi berlawanan dengan intensitas 50–70% dari key light',
+          'Hindari ambient light dari venue yang terlalu dominan — bisa ganggu white balance',
+          'Setting kamera: ISO 100–400, Aperture f/5.6–f/8, Shutter Speed 1/100–1/200'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'ballroom-heading',
+        content: 'Tantangan Ballroom & Venue Gelap',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'ballroom-body',
+        content: 'Ballroom sering punya ambient light oranye atau biru dari dekorasi. Ini bisa membuat white balance kacau. Solusi: naikkan intensitas lighting photobooth hingga dominant, set white balance manual di kamera sesuai suhu warna light yang kamu pakai (biasanya 5000–5600K untuk LED daylight).',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'outdoor-heading',
+        content: 'Outdoor Setup',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'outdoor-list',
+        items: [
+          'Siang hari: cari shade (area teduh) atau setup tent — hindari direct sunlight langsung ke subjek',
+          'Gunakan strobe flash dengan guide number tinggi untuk fill-in di kondisi terang',
+          'Sore menjelang golden hour: manfaatkan cahaya alami sebagai key light, tambahkan reflector',
+          'Malam outdoor: perlu lighting yang lebih powerful — LED panel 100W+ atau strobe',
+          'Selalu bawa ND filter jika shooting di kondisi sangat terang'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'callout',
+        id: 'tip-konsisten',
+        content: 'Tips konsistensi: Setelah menemukan setting yang bagus di sebuah venue, catat semua parameter (aperture, ISO, jarak lighting, power setting). Ini akan sangat membantu ketika event berikutnya di venue yang sama.',
+        style: 'tip'
+      },
+      {
+        type: 'text',
+        id: 'equipment-rec-heading',
+        content: 'Rekomendasi Equipment Lighting per Budget',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'equipment-rec-list',
+        items: [
+          'Budget entry (Rp 500 ribu–1,5 juta): Ring light 24 inch LED + reflector putih',
+          'Budget menengah (Rp 2–5 juta): 2x softbox LED 60x90cm dengan stand',
+          'Budget profesional (Rp 8–20 juta): 2x Godox strobe AD200 Pro + modifier softbox'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Lighting yang konsisten adalah tanda profesionalisme. Tamu mungkin tidak bisa menjelaskan kenapa foto mereka bagus — tapi mereka akan merasakan perbedaannya. Investasi di lighting selalu terbayar.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'cara-dapat-klien-pertama-usaha-photobooth',
+    title: 'Cara Dapat Klien Pertama untuk Usaha Photobooth',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Susah dapat event pertama saat belum punya portofolio? Ini strategi yang terbukti untuk membangun book pertama usaha photobooth dari nol — tanpa harus jual murah.',
+    slug: 'cara-dapat-klien-pertama-usaha-photobooth',
+    productTags: ['usaha photobooth', 'tips bisnis', 'marketing'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Chicken-and-egg problem usaha photobooth: klien minta portofolio, tapi portofolio tidak bisa dibuat tanpa klien. Ini masalah klasik yang bisa dipecahkan — tanpa harus kerja gratis atau jual murah.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'langkah1-heading',
+        content: '1. Mulai dari Lingkaran Terdekat',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'langkah1-body',
+        content: 'Event keluarga, arisan, reuni sekolah, acara komunitas, nikahan teman — ini target pertama yang paling realistis. Tawarkan dengan harga teman (bukan gratis), pastikan kualitas kerja tetap profesional. Foto dari event ini jadi portofolio pertama yang legitimate.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'langkah2-heading',
+        content: '2. Bangun Instagram yang Meyakinkan Dulu',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'langkah2-body',
+        content: 'Sebelum ada event nyata, buat mock shoot di rumah atau studio sewaan. Invite teman, pakai lighting, setup booth — foto hasilnya. Ini cukup untuk mengisi feed awal. Yang penting: kualitas foto konsisten dan grid Instagram terlihat profesional.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'langkah3-heading',
+        content: '3. Daftarkan ke Marketplace & Platform EO',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'marketplace-list',
+        items: [
+          'Tokopedia & Shopee — buka toko jasa sewa photobooth, listing dengan foto menarik',
+          'Bridestory & Wedseen — untuk target segmen wedding',
+          'GoWork / Sewa Vendor — platform agregator vendor event',
+          'Google Bisnisku — wajib aktifkan, bantu ditemukan via Google Maps'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'langkah4-heading',
+        content: '4. Hubungi WO/EO Lokal Secara Langsung',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'langkah4-body',
+        content: 'Cari WO/EO di kotamu via Instagram. DM mereka dengan pesan singkat, profesional, dan langsung ke poin: siapa kamu, jasa apa yang ditawarkan, dan ajukan kolaborasi referral. Satu hubungan WO yang baik bisa kasih 2–5 klien per bulan secara konsisten.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'langkah5-heading',
+        content: '5. Ikut Pameran Wedding & Event',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'langkah5-body',
+        content: 'Pameran wedding adalah goldmine untuk vendor baru. Beberapa bisa kamu masuki gratis sebagai supporting vendor (ikut stand WO yang butuh photobooth). Kamu dapat exposure, WO dapat nilai tambah — win-win.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'tip-jangan-gratis',
+        content: 'Jangan kerja gratis — tapi tawarkan "harga perkenalan" yang masih menguntungkan. Perbedaannya: kerja gratis membuat kamu tidak dianggap serius, sementara diskon wajar tetap menempatkan kamu sebagai vendor profesional.',
+        style: 'warning'
+      },
+      {
+        type: 'text',
+        id: 'kesalahan-heading',
+        content: 'Kesalahan yang Sering Dilakukan Pemula',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'kesalahan-list',
+        items: [
+          'Menunggu portofolio sempurna sebelum mulai marketing — mulai dari sekarang dengan yang ada',
+          'Harga terlalu murah di awal hingga sulit dinaikkan nanti',
+          'Tidak follow up setelah event — minta testimoni dan izin posting foto',
+          'Feed Instagram tidak konsisten atau tidak update berminggu-minggu'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Event pertama selalu yang paling sulit. Tapi setelah itu, momentum akan terbangun sendiri — asal kualitas terjaga dan kamu aktif membangun relasi. Satu klien yang puas bisa menghasilkan 3–5 referral baru.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'checklist-photobooth-untuk-wedding',
+    title: 'Checklist Photobooth untuk Wedding: Panduan Vendor & Pengantin',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Checklist lengkap untuk vendor photobooth yang handle wedding — dari briefing klien, setup hari H, hingga handling darurat. Plus panduan untuk pengantin yang mau sewa photobooth.',
+    slug: 'checklist-photobooth-untuk-wedding',
+    productTags: ['usaha photobooth', 'wedding', 'tips bisnis'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Wedding adalah event dengan stakes tertinggi untuk vendor photobooth. Tidak bisa diulang, tamu banyak, dan ekspektasi tinggi. Checklist ini disusun dari pengalaman ratusan event wedding agar tidak ada yang terlewat.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'prebriefing-heading',
+        content: 'H-14: Briefing dengan Klien',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'prebriefing-list',
+        items: [
+          'Konfirmasi tema & warna resepsi (minta mood board jika ada)',
+          'Dapatkan logo/teks yang mau ditampilkan di template',
+          'Tanyakan lokasi spesifik booth di venue (koordinasi dengan WO)',
+          'Estimasi jumlah tamu — untuk kalkulasi kertas & tinta',
+          'Konfirmasi durasi booth (biasanya 4–6 jam untuk wedding)',
+          'Tanyakan ketersediaan listrik dan jarak dari area booth'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'text',
+        id: 'h3-heading',
+        content: 'H-3: Persiapan Template & Materi',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'h3-list',
+        items: [
+          'Final approval template dari klien (sudah tidak ada revisi)',
+          'Print test template di printer yang akan dipakai',
+          'Cek stok kertas & ribbon printer — siapkan lebih 20% dari estimasi',
+          'Backup template tersimpan di 2 lokasi (laptop + flash drive)',
+          'Charge semua baterai kamera dan flash'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'text',
+        id: 'hariH-heading',
+        content: 'Hari H: Setup',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'hariH-list',
+        items: [
+          'Tiba di venue minimal 2 jam sebelum tamu datang',
+          'Setup booth: kamera, lighting, printer, laptop, backdrop',
+          'Test shot: ambil foto, print, cek hasil warna dan ketajaman',
+          'Kalibrasi white balance sesuai kondisi cahaya venue',
+          'Koordinasi dengan WO soal jadwal pelaminan & placement',
+          'Pastikan kabel power rapi dan tidak jadi hazard',
+          'Siapkan props yang sudah disepakati'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'text',
+        id: 'selama-event-heading',
+        content: 'Selama Event',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'selama-list',
+        items: [
+          'Monitor antrian — jangan biarkan antrian terlalu panjang',
+          'Cek secara berkala kondisi printer (ribbon, kertas)',
+          'Arahkan tamu dengan ramah & efisien',
+          'Ambil backup foto (RAW jika perlu) untuk antisipasi',
+          'Catat jika ada permintaan khusus tamu'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'callout',
+        id: 'emergency-kit',
+        content: 'Emergency kit yang wajib dibawa: kabel power spare, baterai kamera cadangan (minimal 3), ribbon printer spare, tisu microfiber untuk lensa, dan kontak WO yang bisa dihubungi langsung.',
+        style: 'warning'
+      },
+      {
+        type: 'text',
+        id: 'pasca-heading',
+        content: 'Pasca Event',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'pasca-list',
+        items: [
+          'Kemas equipment dengan teliti — cek jangan ada yang tertinggal',
+          'Kirim galeri digital ke klien dalam 24–48 jam (jika termasuk paket)',
+          'Minta testimoni dari klien/mempelai',
+          'Post highlight foto ke Instagram (minta izin dulu)',
+          'Follow up WO untuk potensi referral ke depan'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Vendor photobooth yang handal di wedding akan selalu dapat referral. Tamu wedding adalah calon klien masa depan — impresi yang kamu tinggalkan jauh lebih berharga dari payment hari itu.',
+        style: 'large'
+      }
+    ]
+  },
+
+  {
+    id: 'printer-photobooth-terbaik-dnp-hiti-mitsubishi',
+    title: 'Printer Photobooth Terbaik: DNP vs HiTi vs Mitsubishi — Mana yang Worth It?',
+    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    excerpt: 'Printer dye-sublimation adalah investasi terbesar di usaha photobooth. Ini perbandingan DNP DS-RX1HS, HiTi P525L, dan Mitsubishi CP-D90DW dari sisi kualitas, kecepatan, dan total cost of ownership.',
+    slug: 'printer-photobooth-terbaik-dnp-hiti-mitsubishi',
+    productTags: ['usaha photobooth', 'equipment', 'printer'],
+    publishedAt: '2026-03-24',
+    draft: true,
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Printer dye-sublimation adalah satu-satunya pilihan untuk photobooth profesional — hasil cetaknya tajam, tahan air, dan tidak pudar. Tapi harganya bukan main. Sebelum beli, pastikan kamu pilih yang tepat karena ini investasi jangka panjang.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'kenapa-dye-sub',
+        content: 'Kenapa Harus Dye-Sublimation?',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'kenapa-list',
+        items: [
+          'Kecepatan cetak 8–12 detik per lembar — cocok untuk event dengan banyak tamu',
+          'Kualitas warna photographic grade — tidak ada dot atau grain seperti inkjet',
+          'Tahan air & goresan — foto tidak rusak saat ditangani tamu',
+          'Tidak perlu waktu kering — foto langsung bisa dipegang begitu keluar',
+          'Biaya per lembar lebih predictable (ribbon + kertas per set)'
+        ],
+        style: 'bullet'
+      },
+      {
+        type: 'comparison',
+        id: 'printer-comparison',
+        items: [
+          {
+            title: 'HiTi P525L',
+            description: 'Pilihan paling populer di Indonesia. Balance sempurna antara harga, kualitas, dan ketersediaan suku cadang lokal.',
+            pros: ['Harga terjangkau: Rp 12–17 juta', 'Service & ribbon mudah ditemukan di Indonesia', 'Kecepatan baik: ~10 detik per 4R', 'Support 2R, 4R, dan strip'],
+            cons: ['Tidak sekencang DNP', 'Ukuran agak lebih besar']
+          },
+          {
+            title: 'DNP DS-RX1HS',
+            description: 'Pilihan untuk event volume tinggi. Kecepatan tertinggi di kelasnya, cocok untuk event 500+ tamu.',
+            pros: ['Kecepatan cetak tertinggi: ~8 detik per 4R', 'Build quality premium', 'Ribbon per lembar paling efisien'],
+            cons: ['Harga lebih tinggi: Rp 20–28 juta', 'Service center lebih terbatas di kota kecil', 'Ribbon agak lebih mahal']
+          },
+          {
+            title: 'Mitsubishi CP-D90DW',
+            description: 'Dikenal dengan kualitas warna terbaik. Pilihan vendor yang mengutamakan output print premium.',
+            pros: ['Kualitas warna paling akurat', 'Bisa cetak borderless & border', 'Dual tray — bisa 2 ukuran sekaligus'],
+            cons: ['Harga premium: Rp 22–30 juta', 'Ribbon termasuk yang paling mahal', 'Lebih berat dari kompetitor']
+          }
+        ]
+      },
+      {
+        type: 'text',
+        id: 'biaya-per-lembar-heading',
+        content: 'Biaya Per Lembar (Total Cost of Ownership)',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'biaya-per-lembar-body',
+        content: 'Harga beli printer bukan satu-satunya yang perlu dihitung. Biaya ribbon + kertas per lembar sangat menentukan profitabilitas jangka panjang: HiTi sekitar Rp 3.500–4.500/lembar, DNP sekitar Rp 4.000–5.000/lembar, Mitsubishi sekitar Rp 4.500–6.000/lembar. Dengan 200 cetak per event × 48 event/tahun = 9.600 lembar/tahun — selisih Rp 1.000/lembar berarti Rp 9,6 juta per tahun.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'rekomendasi-final',
+        content: 'Rekomendasi: Untuk pemula → HiTi P525L (support lokal baik, harga terjangkau). Untuk skala menengah ke atas dengan event frekuensi tinggi → DNP DS-RX1HS. Untuk yang prioritaskan kualitas cetak premium → Mitsubishi CP-D90DW.',
+        style: 'tip'
+      },
+      {
+        type: 'text',
+        id: 'beli-baru-vs-second',
+        content: 'Baru vs Second?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'second-body',
+        content: 'Printer dye-sub second bisa jadi pilihan untuk menekan modal awal, tapi hati-hati dengan kondisi ribbon path dan print head. Minta seller untuk demo print langsung sebelum transaksi. Tanyakan berapa lembar sudah dicetak — life span print head biasanya 500.000–1.000.000 lembar.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'conclusion',
+        content: 'Printer adalah investasi yang menentukan kualitas output bisnis kamu. Pilih berdasarkan volume event yang kamu targetkan dan pertimbangkan total cost of ownership, bukan hanya harga beli awal.',
+        style: 'large'
+      }
+    ]
+  },
+
 ];
 
 export function getBlogById(id: string): Blog | undefined {
@@ -2875,7 +4023,7 @@ export function getRelatedBlogs(id: string, limit: number = 3): Blog[] {
 }
 
 export function getAllBlogs(): Blog[] {
-  return blogs;
+  return blogs.filter(blog => !blog.draft);
 }
 
 export function searchBlogs(query: string, tags: string[] = []): Blog[] {

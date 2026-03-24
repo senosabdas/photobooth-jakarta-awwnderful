@@ -2864,7 +2864,6 @@ export const blogs: Blog[] = [
     slug: 'equipment-photobooth-lengkap-2025',
     productTags: ['usaha photobooth', 'equipment', 'tips bisnis'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3009,7 +3008,6 @@ export const blogs: Blog[] = [
     slug: 'cara-hitung-harga-sewa-photobooth',
     productTags: ['usaha photobooth', 'tips bisnis', 'harga sewa'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3118,7 +3116,6 @@ export const blogs: Blog[] = [
     slug: 'roi-usaha-photobooth-kapan-balik-modal',
     productTags: ['usaha photobooth', 'tips bisnis', 'ROI'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3213,7 +3210,6 @@ export const blogs: Blog[] = [
     slug: 'software-photobooth-terbaik-2025',
     productTags: ['usaha photobooth', 'equipment', 'software'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3314,7 +3310,6 @@ export const blogs: Blog[] = [
     slug: 'kamera-photobooth-dslr-vs-mirrorless',
     productTags: ['usaha photobooth', 'equipment', 'kamera'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3419,7 +3414,6 @@ export const blogs: Blog[] = [
     slug: 'cara-bikin-template-photobooth-yang-disukai-klien',
     productTags: ['usaha photobooth', 'tips bisnis', 'desain'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3551,7 +3545,6 @@ export const blogs: Blog[] = [
     slug: 'tips-lighting-photobooth-indoor-outdoor',
     productTags: ['usaha photobooth', 'equipment', 'tips teknis'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3662,7 +3655,6 @@ export const blogs: Blog[] = [
     slug: 'cara-dapat-klien-pertama-usaha-photobooth',
     productTags: ['usaha photobooth', 'tips bisnis', 'marketing'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3779,7 +3771,6 @@ export const blogs: Blog[] = [
     slug: 'checklist-photobooth-untuk-wedding',
     productTags: ['usaha photobooth', 'wedding', 'tips bisnis'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'
@@ -3907,7 +3898,6 @@ export const blogs: Blog[] = [
     slug: 'printer-photobooth-terbaik-dnp-hiti-mitsubishi',
     productTags: ['usaha photobooth', 'equipment', 'printer'],
     publishedAt: '2026-03-24',
-    draft: true,
     author: {
       name: 'Seno Sabdastandyo',
       image: '/images/blog-profile-seno-jakarta.webp'

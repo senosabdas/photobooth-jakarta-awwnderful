@@ -104,6 +104,190 @@ export interface Blog {
 export const blogs: Blog[] = [
 
   {
+    id: 'mini-me-lego-photobooth-jakarta',
+    title: 'Mini Me: Jadikan Dirimu Karakter Lego dengan AI Photobooth',
+    image: '/images/services/mini-me-lego-photobooth-jakarta.jpg',
+    excerpt: 'Pilih karakter Lego favoritmu, foto sebentar, dan AI kami akan mengubahmu jadi versi Lego realistis dari dirimu sendiri — dicetak langsung dan dikemas dalam kotak Lego custom.',
+    slug: 'mini-me-lego-photobooth-jakarta',
+    productTags: ['brand activation', 'ai photobooth', 'corporate event', 'birthday party'],
+    publishedAt: '2026-03-25',
+    author: {
+      name: 'Seno Sabdastandyo',
+      image: '/images/blog-profile-seno-jakarta.webp'
+    },
+    content: [
+      {
+        type: 'text',
+        id: 'intro',
+        content: 'Perkenalkan Mini Me — photobooth activation terbaru dari Awwnderful yang menggabungkan kecintaan terhadap Lego dengan kekuatan AI. Pilih karakter Lego favoritmu, kami yang ubah jadi versi realistis dari dirimu sendiri.',
+        style: 'large'
+      },
+      {
+        type: 'text',
+        id: 'concept-heading',
+        content: 'Konsep Mini Me',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'concept-detail',
+        content: 'Mini Me adalah pengalaman foto yang benar-benar unik. Kamu memilih karakter Lego — bisa superhero, astronot, bajak laut, atau karakter ikonik lainnya — lalu AI filter kami akan menyesuaikan style karakter tersebut ke dalam fotomu. Hasilnya? Versi Lego realistis dari dirimu sendiri yang belum pernah ada sebelumnya.',
+        style: 'normal'
+      },
+      {
+        type: 'image',
+        id: 'mini-me-hero',
+        src: '/images/services/mini-me-lego-photobooth-jakarta.jpg',
+        alt: 'Mini Me Lego AI Photobooth Jakarta — Awwnderful',
+        caption: 'Jadikan dirimu karakter Lego dengan teknologi AI — hanya di Awwnderful',
+        layout: 'wide'
+      },
+      {
+        type: 'text',
+        id: 'process-heading',
+        content: 'The Process — 3 Langkah Mudah',
+        style: 'medium'
+      },
+      {
+        type: 'list',
+        id: 'process-steps',
+        items: [
+          'Ambil foto terbaikmu — pose sebebas-bebasnya di depan kamera kami',
+          'Pilih karakter Lego favoritmu — dari berbagai pilihan karakter yang tersedia',
+          'Dapatkan versi Lego realistis dari dirimu — AI filter kami langsung bekerja mengubah karakter pilihanmu menjadi versi realistis yang disesuaikan dengan fotomu'
+        ],
+        style: 'numbered'
+      },
+      {
+        type: 'text',
+        id: 'result-heading',
+        content: 'Hasilnya? Lebih dari Sekadar Foto',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'result-detail',
+        content: 'Tim kami akan mencetak hasil foto Mini Me-mu dan merakitnya langsung ke dalam custom Lego box — siap dibawa pulang sebagai souvenir yang benar-benar satu-satunya di dunia.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'speed-callout',
+        content: '⚡ Fast Process: 1 Mini Me Lego hanya 1–2 menit* — tamu tidak perlu menunggu lama. (*Kecepatan proses AI dapat dipengaruhi oleh kondisi dan stabilitas jaringan internet di lokasi acara)',
+        style: 'info'
+      },
+      {
+        type: 'text',
+        id: 'event-fit-heading',
+        content: 'Cocok Banget Buat Event Kamu',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'event-fit-detail',
+        content: 'Mini Me dirancang untuk memberikan pengalaman yang berkesan sekaligus souvenir yang langsung bisa dibawa pulang. Tamu bisa langsung dapat hasilnya tanpa menunggu lama — cocok untuk event dengan ratusan tamu sekalipun.',
+        style: 'normal'
+      },
+      {
+        type: 'list',
+        id: 'event-types',
+        items: [
+          'Brand activation & product launching — activation yang viral dan berkesan',
+          'Corporate event & gathering — souvenir unik yang pasti jadi bahan obrolan',
+          'Birthday party — kenangan ulang tahun yang benar-benar berbeda',
+          'Pameran & expo — menarik pengunjung dengan pengalaman interaktif berbasis AI',
+          'Kids event & school event — anak-anak pasti suka jadi karakter Lego favorit mereka'
+        ],
+        style: 'checklist'
+      },
+      {
+        type: 'text',
+        id: 'faq-heading',
+        content: 'FAQ — Pertanyaan yang Sering Ditanyakan',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-1-q',
+        content: 'Karakter Lego apa saja yang tersedia?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-1-a',
+        content: 'Tersedia berbagai pilihan karakter ikonik — mulai dari superhero, astronot, bajak laut, ninja, hingga karakter Lego klasik lainnya. Pilihan karakter dapat disesuaikan dengan tema event kamu.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'faq-2-q',
+        content: 'Berapa lama prosesnya?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-2-a',
+        content: '1 Mini Me Lego hanya butuh 1–2 menit dari foto hingga hasil jadi. Proses ini bisa sedikit lebih lama tergantung kondisi jaringan internet di lokasi acara.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'faq-3-q',
+        content: 'Apakah hasilnya langsung dibawa pulang?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-3-a',
+        content: 'Ya! Tim kami mencetak hasil foto dan langsung merakitnya ke dalam custom Lego box di tempat. Tamu bisa langsung membawa pulang hasil Mini Me mereka saat itu juga.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'faq-4-q',
+        content: 'Apakah bisa untuk event outdoor?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-4-a',
+        content: 'Mini Me bisa dioperasikan di indoor maupun outdoor, asalkan tersedia koneksi internet yang stabil karena proses AI membutuhkan koneksi aktif. Kami sarankan untuk event outdoor dengan akses WiFi atau hotspot dedicated.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'faq-5-q',
+        content: 'Berapa kapasitas tamu per jam?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-5-a',
+        content: 'Dengan proses 1–2 menit per orang, Mini Me mampu melayani hingga 30–60 tamu per jam. Untuk event besar, kami bisa menyiapkan lebih dari satu unit secara bersamaan.',
+        style: 'normal'
+      },
+      {
+        type: 'text',
+        id: 'faq-6-q',
+        content: 'Apakah bisa dikustomisasi dengan branding perusahaan?',
+        style: 'medium'
+      },
+      {
+        type: 'text',
+        id: 'faq-6-a',
+        content: 'Tentu! Custom Lego box dan hasil cetak dapat ditambahkan logo atau branding perusahaan kamu. Cocok untuk corporate event yang ingin meninggalkan kesan branded.',
+        style: 'normal'
+      },
+      {
+        type: 'callout',
+        id: 'cta',
+        content: '🧱 Tertarik hadirkan Mini Me di event kamu? Hubungi Awwnderful untuk konsultasi dan info ketersediaan — kami siap bantu dari konsep hingga eksekusi.',
+        style: 'tip'
+      }
+    ]
+  },
+
+  {
     id: 'case-studies-keychain-photobooth-trends',
     title: 'Keychain Photobooth: Tren Souvenir Event yang Semakin Populer di Jakarta',
     image: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta.avif',

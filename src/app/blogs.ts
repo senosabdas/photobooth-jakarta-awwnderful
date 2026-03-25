@@ -106,7 +106,7 @@ export const blogs: Blog[] = [
   {
     id: 'mini-me-lego-photobooth-jakarta',
     title: 'Mini Me: Jadikan Dirimu Karakter Lego dengan AI Photobooth',
-    image: '/images/services/mini-me-lego-photobooth-jakarta.jpg',
+    image: '/images/services/ai-photo-booth-jakarta/ai-photo-booth-jakarta-ai-figurine-toy1.webp',
     excerpt: 'Pilih karakter Lego favoritmu, foto sebentar, dan AI kami akan mengubahmu jadi versi Lego realistis dari dirimu sendiri — dicetak langsung dan dikemas dalam kotak Lego custom.',
     slug: 'mini-me-lego-photobooth-jakarta',
     productTags: ['brand activation', 'ai photobooth', 'corporate event', 'birthday party'],

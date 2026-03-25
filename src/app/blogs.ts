@@ -3043,7 +3043,7 @@ export const blogs: Blog[] = [
   {
     id: 'equipment-photobooth-lengkap-2025',
     title: 'Equipment Photobooth Lengkap: List & Estimasi Harga 2025',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/multicamera-photo-booth-jakarta/multicamera-photo-booth-jakarta-awwnderful-multicamera-setup-1.webp',
     excerpt: 'Mau mulai usaha photobooth tapi bingung beli apa dulu? Ini daftar equipment lengkap dari kamera, printer, hingga software — lengkap dengan estimasi harga 2025.',
     slug: 'equipment-photobooth-lengkap-2025',
     productTags: ['usaha photobooth', 'equipment', 'tips bisnis'],
@@ -3187,7 +3187,7 @@ export const blogs: Blog[] = [
   {
     id: 'cara-hitung-harga-sewa-photobooth',
     title: 'Cara Hitung Harga Sewa Photobooth Biar Tidak Rugi',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/hashtag-printer-jakarta/hashtag-printer-jakarta-gallery-1.webp',
     excerpt: 'Menentukan harga sewa photobooth yang tepat bukan soal nebak — ada formula hitungannya. Ini cara menghitung biaya operasional, keuntungan wajar, dan harga yang kompetitif.',
     slug: 'cara-hitung-harga-sewa-photobooth',
     productTags: ['usaha photobooth', 'tips bisnis', 'harga sewa'],
@@ -3295,7 +3295,7 @@ export const blogs: Blog[] = [
   {
     id: 'roi-usaha-photobooth-kapan-balik-modal',
     title: 'ROI Usaha Photobooth: Kapan Bisa Balik Modal?',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: 'https://images.pexels.com/photos/7054399/pexels-photo-7054399.jpeg?auto=compress&cs=tinysrgb&w=1600',
     excerpt: 'Usaha photobooth bisa balik modal dalam 6–18 bulan tergantung frekuensi event dan strategi harga. Ini simulasi ROI nyata untuk bantu kamu perencanaan.',
     slug: 'roi-usaha-photobooth-kapan-balik-modal',
     productTags: ['usaha photobooth', 'tips bisnis', 'ROI'],
@@ -3389,7 +3389,7 @@ export const blogs: Blog[] = [
   {
     id: 'software-photobooth-terbaik-2025',
     title: 'Software Photobooth Terbaik 2025: Review Jujur dari Praktisi',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: 'https://images.pexels.com/photos/9553905/pexels-photo-9553905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     excerpt: 'Bingung pilih software photobooth? Ini review jujur DSLR Remote Pro, Sparkbooth, Breeze Kiosk, dan Simple Booth — kelebihan, kekurangan, dan untuk siapa masing-masing cocok.',
     slug: 'software-photobooth-terbaik-2025',
     productTags: ['usaha photobooth', 'equipment', 'software'],
@@ -3489,7 +3489,7 @@ export const blogs: Blog[] = [
   {
     id: 'kamera-photobooth-dslr-vs-mirrorless',
     title: 'Kamera untuk Photobooth: DSLR vs Mirrorless, Mana yang Lebih Cocok?',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/photo-booth-gif-jakarta/photo-booth-gif-jakarta-dslr-print-out-1.webp',
     excerpt: 'Pilih DSLR atau mirrorless untuk usaha photobooth? Ini perbandingan jujur dari sisi kualitas foto, daya tahan, kompatibilitas software, dan nilai investasi.',
     slug: 'kamera-photobooth-dslr-vs-mirrorless',
     productTags: ['usaha photobooth', 'equipment', 'kamera'],
@@ -3593,7 +3593,7 @@ export const blogs: Blog[] = [
   {
     id: 'cara-bikin-template-photobooth-yang-disukai-klien',
     title: 'Cara Bikin Template Photobooth yang Disukai Klien',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/custom-photo-print-jakarta/custom-photo-print-jakarta-jumbo-photobooth-strips.webp',
     excerpt: 'Template yang bagus bukan cuma soal desain keren — tapi yang cocok dengan tema event dan mau di-share tamu. Ini panduan desain template photobooth dari nol.',
     slug: 'cara-bikin-template-photobooth-yang-disukai-klien',
     productTags: ['usaha photobooth', 'tips bisnis', 'desain'],
@@ -3724,7 +3724,7 @@ export const blogs: Blog[] = [
   {
     id: 'tips-lighting-photobooth-indoor-outdoor',
     title: 'Tips Setup Lighting Photobooth di Indoor & Outdoor',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/hashtag-printer-jakarta/hashtag-printer-setup-jakarta-1.webp',
     excerpt: 'Lighting yang salah adalah penyebab utama foto photobooth terlihat buruk. Ini panduan setup lighting untuk berbagai kondisi event — dari ballroom hingga outdoor daytime.',
     slug: 'tips-lighting-photobooth-indoor-outdoor',
     productTags: ['usaha photobooth', 'equipment', 'tips teknis'],
@@ -3834,7 +3834,7 @@ export const blogs: Blog[] = [
   {
     id: 'cara-dapat-klien-pertama-usaha-photobooth',
     title: 'Cara Dapat Klien Pertama untuk Usaha Photobooth',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/roaming-photo-booth-jakarta/roaming-photo-booth-jakarta-dslr-roamer-1.webp',
     excerpt: 'Susah dapat event pertama saat belum punya portofolio? Ini strategi yang terbukti untuk membangun book pertama usaha photobooth dari nol — tanpa harus jual murah.',
     slug: 'cara-dapat-klien-pertama-usaha-photobooth',
     productTags: ['usaha photobooth', 'tips bisnis', 'marketing'],
@@ -3950,7 +3950,7 @@ export const blogs: Blog[] = [
   {
     id: 'checklist-photobooth-untuk-wedding',
     title: 'Checklist Photobooth untuk Wedding: Panduan Vendor & Pengantin',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/custom-photo-print-jakarta/keychain-photobooth-jakarta-wedding-1.jpeg',
     excerpt: 'Checklist lengkap untuk vendor photobooth yang handle wedding — dari briefing klien, setup hari H, hingga handling darurat. Plus panduan untuk pengantin yang mau sewa photobooth.',
     slug: 'checklist-photobooth-untuk-wedding',
     productTags: ['usaha photobooth', 'wedding', 'tips bisnis'],
@@ -4077,7 +4077,7 @@ export const blogs: Blog[] = [
   {
     id: 'printer-photobooth-terbaik-dnp-hiti-mitsubishi',
     title: 'Printer Photobooth Terbaik: DNP vs HiTi vs Mitsubishi — Mana yang Worth It?',
-    image: '/images/services/photobox-jakarta/photobox-jakarta-permanent-setup-photobox.png',
+    image: '/images/services/hashtag-printer-jakarta/hashtag-printer-setup-jakarta-2.webp',
     excerpt: 'Printer dye-sublimation adalah investasi terbesar di usaha photobooth. Ini perbandingan DNP DS-RX1HS, HiTi P525L, dan Mitsubishi CP-D90DW dari sisi kualitas, kecepatan, dan total cost of ownership.',
     slug: 'printer-photobooth-terbaik-dnp-hiti-mitsubishi',
     productTags: ['usaha photobooth', 'equipment', 'printer'],

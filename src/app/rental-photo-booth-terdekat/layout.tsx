@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Layanan photo booth datang ke lokasi Anda. Cetak instan, GIF/boomerang, galeri digital. Area Jakarta & sekitar.',
     url: 'https://awwnderful.com/rental-photo-booth-terdekat',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp', width: 1200, height: 630, alt: 'Rental Photo Booth Terdekat' }]
   }
 }
 

@@ -143,6 +143,12 @@ export const blogs: Blog[] = [
         layout: 'wide'
       },
       {
+        type: 'video',
+        id: 'mini-me-video-preview',
+        src: '/videos/services/mini-me-lego-preview.mp4',
+        caption: 'Lihat bagaimana AI mengubah foto menjadi karakter Lego secara realistis dan instan!'
+      },
+      {
         type: 'text',
         id: 'process-heading',
         content: 'The Process — 3 Langkah Mudah',

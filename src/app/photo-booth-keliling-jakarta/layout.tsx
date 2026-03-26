@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Tim mobile mendatangi tamu, cocok untuk crowd besar & venue luas. Share instan / cetak on‑the‑spot.',
     url: 'https://awwnderful.com/photo-booth-keliling-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp', width: 1200, height: 630, alt: 'Photobooth Keliling Jakarta' }]
   }
 }
 

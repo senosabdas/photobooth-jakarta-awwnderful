@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       '360 Video Booth dengan overlay branding, musik, dan share instan. Tim profesional untuk event di Jakarta.',
     url: 'https://awwnderful.com/photo-booth-360-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/360-video-booth-service-grid-jakarta.webp', width: 1200, height: 630, alt: 'Photo Booth 360 Jakarta' }]
   }
 }
 

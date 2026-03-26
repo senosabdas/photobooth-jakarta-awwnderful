@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Aktivitasi stand yang ramai: GIF/boomerang, overlay brand, share instan. Cocok untuk corporate & festival.',
     url: 'https://awwnderful.com/photo-booth-event-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/wab-summit-jakarta.webp', width: 1200, height: 630, alt: 'Photo Booth Event Jakarta' }]
   }
 }
 

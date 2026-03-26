@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Paket harga transparan untuk event di Jakarta. Pilih durasi & opsi custom sesuai kebutuhan Anda.',
     url: 'https://awwnderful.com/harga-sewa-photo-booth-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp', width: 1200, height: 630, alt: 'Harga Sewa Photo Booth Jakarta' }]
   }
 }
 

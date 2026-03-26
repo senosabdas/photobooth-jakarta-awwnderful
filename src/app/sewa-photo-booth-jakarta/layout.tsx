@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Sewa photo booth untuk event di Jakarta. Cetak instan, GIF/boomerang, backdrop & props. Tim profesional, hasil premium.',
     url: 'https://awwnderful.com/sewa-photo-booth-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp', width: 1200, height: 630, alt: 'Sewa Photo Booth Jakarta' }]
   }
 }
 

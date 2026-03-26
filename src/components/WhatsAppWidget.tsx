@@ -9,7 +9,7 @@ export default function WhatsAppWidget() {
   const [showPopup, setShowPopup] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
   const phoneNumber = "6287772566170"
-  const message = "Hi, I'm interested in your services!"
+  const message = "Halo, saya tertarik dengan layanan photo booth Awwnderful. Boleh info paket dan harganya?"
 
   // Check if device is mobile
   useEffect(() => {
@@ -23,16 +23,14 @@ export default function WhatsAppWidget() {
     return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
-  // Show popup message after 3 seconds of page load (only on desktop)
+  // Show popup message after 3 seconds of page load
   useEffect(() => {
-    if (isMobile) return // Disable popup on mobile
-    
     const timer = setTimeout(() => {
       setShowPopup(true)
       // Play sound effect
       const audio = new Audio('/sounds/notification.mp3')
       audio.play().catch(error => console.log('Audio playback failed:', error))
-      
+
       // Hide popup after 5 seconds
       setTimeout(() => {
         setShowPopup(false)
@@ -40,22 +38,20 @@ export default function WhatsAppWidget() {
     }, 3000)
 
     return () => clearTimeout(timer)
-  }, [isMobile])
+  }, [])
 
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8 z-50">
-      {/* Popup Message - Only show on desktop */}
-      {!isMobile && (
-        <div
-          className={`absolute bottom-full right-0 mb-4 transition-all duration-300 ease-in-out ${
-            showPopup ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'
-          }`}
-        >
-          <div className="bg-white rounded-xl shadow-lg p-4 max-w-xs animate-bounce">
-            <p className="text-gray-800 font-medium">👋 Need help? Contact us on WhatsApp!</p>
-          </div>
+      {/* Popup Message */}
+      <div
+        className={`absolute bottom-full right-0 mb-4 transition-all duration-300 ease-in-out ${
+          showPopup ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'
+        }`}
+      >
+        <div className="bg-white rounded-xl shadow-lg p-4 max-w-xs animate-bounce">
+          <p className="text-gray-800 font-medium">👋 Ada yang bisa kami bantu? Chat via WhatsApp!</p>
         </div>
-      )}
+      </div>
 
       <a
         href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
@@ -73,7 +69,7 @@ export default function WhatsAppWidget() {
               isHovered ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
             }`}
           >
-            Chat with us on WhatsApp
+            Chat via WhatsApp
           </span>
         )}
 

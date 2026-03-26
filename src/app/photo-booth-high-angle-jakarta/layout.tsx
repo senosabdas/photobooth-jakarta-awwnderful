@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Setup high angle/top-down untuk area sempit dan antrian cepat. Cetak instan & share digital.',
     url: 'https://awwnderful.com/photo-booth-high-angle-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photobooth-high-angle.png', width: 1200, height: 630, alt: 'Photo Booth High Angle Jakarta' }]
   }
 }
 

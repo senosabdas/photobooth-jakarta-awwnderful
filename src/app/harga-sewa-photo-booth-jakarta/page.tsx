@@ -368,6 +368,7 @@ export default function Page() {
       <Footer />
 
       <Script id="schema-harga" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'Service', name: 'Harga Sewa Photo Booth Jakarta', areaServed: 'Jakarta', provider: { '@type': 'LocalBusiness', name: 'Awwnderful Photo Booth', telephone: '+6287772566170', url: 'https://awwnderful.com/harga-sewa-photo-booth-jakarta' } }) }} />
+      <Script id="schema-faq-harga" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }) }} />
     </LanguageProvider>
   )
 }

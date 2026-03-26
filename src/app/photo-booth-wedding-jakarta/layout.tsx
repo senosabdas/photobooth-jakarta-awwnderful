@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     description:
       'Photo booth wedding elegan dengan hasil premium. Glam filter, cetak instan, dan desain sesuai tema.',
     url: 'https://awwnderful.com/photo-booth-wedding-jakarta',
-    type: 'website'
+    type: 'website',
+    images: [{ url: 'https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp', width: 1200, height: 630, alt: 'Photo Booth Wedding Jakarta' }]
   }
 }
 

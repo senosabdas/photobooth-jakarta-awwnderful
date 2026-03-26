@@ -38,11 +38,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="id">
       <head>
-        {/* Google Analytics - Replace GA_MEASUREMENT_ID with your actual ID */}
+        {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -50,7 +50,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID');
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
           `}
         </Script>
         
@@ -81,11 +81,17 @@ export default function RootLayout({
                 "https://facebook.com/awwnderful",
                 "https://tiktok.com/@awwnderful"
               ],
+              "priceRange": "Rp 2.000.000 – Rp 7.000.000",
+              "openingHours": "Mo-Su 08:00-22:00",
+              "image": "https://awwnderful.com/images/photo-booth-gif-all-jakarta.webp",
               "serviceType": "Photo Booth Rental",
-              "areaServed": {
-                "@type": "Country",
-                "name": "Indonesia"
-              }
+              "areaServed": [
+                { "@type": "City", "name": "Jakarta" },
+                { "@type": "City", "name": "Bogor" },
+                { "@type": "City", "name": "Depok" },
+                { "@type": "City", "name": "Tangerang" },
+                { "@type": "City", "name": "Bekasi" }
+              ]
             })
           }}
         />
